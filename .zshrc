@@ -40,7 +40,7 @@ export EDITOR='nvim'
 
 alias i3edit='$EDITOR ~/.config/i3/config'
 alias connect-hd350='bluetoothctl connect 00:1B:66:EA:AC:99'
-alias server='ssh svr@192.168.1.16'
+alias server='ssh svr@192.168.1.69'
 alias clear-clipboard='pkill greenclip && greenclip clear && greenclip daemon &'
 alias sddm-wallpaper='sudo nano /usr/share/sddm/themes/breeze/theme.conf.user'
 alias histgrep='history | grep'
